@@ -7,6 +7,9 @@ void TenantsGUI::setupGUI() {
 	lyMain = new QHBoxLayout();
 	setLayout(lyMain);
 
+	this->setWindowIcon(QIcon("icon.png"));
+	this->setWindowTitle("Tenants App");
+
 	widLeft = new QWidget();
 	widRight = new QWidget();
 	widBtns = new QGroupBox();
